@@ -12,3 +12,8 @@ function insertItemAtTop(cards, newCard) {
   cards.push(newCard);
   return cards;
 }
+
+function removeItem(cards, position) {
+  cards.splice(position, 1);
+  return cards;
+}
