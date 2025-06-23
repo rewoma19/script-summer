@@ -26,3 +26,9 @@ Perform some sleight of hand and exchange the card at index **postion** with the
 ### Insert a card at the top of the stack
 
 Make a card appear by inserting a new card at the top of the stack. Return the adjusted stack
+
+## Task 4
+
+### Remove a card from the stack
+
+Make a card disapper by removing the card at the given **postion** from the stack. Return the adjusted stack.
