@@ -32,3 +32,9 @@ Make a card appear by inserting a new card at the top of the stack. Return the a
 ### Remove a card from the stack
 
 Make a card disapper by removing the card at the given **postion** from the stack. Return the adjusted stack.
+
+## Task 5
+
+### Remove the top card from the stack
+
+Make a card disapper by removing the card at the top of the stack. Return the adjusted stack.
