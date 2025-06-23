@@ -20,3 +20,9 @@ To pick a card, return the card at index **position** from the given stack
 ### Exchange a card in the stack
 
 Perform some sleight of hand and exchange the card at index **postion** with the replacement card provided, Return the adjusted stack.
+
+## Task 3
+
+### Insert a card at the top of the stack
+
+Make a card appear by inserting a new card at the top of the stack. Return the adjusted stack
