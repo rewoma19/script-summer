@@ -14,3 +14,9 @@ The two exceptions are **getItem** which should return the card at the given pos
 ### Retrieve a card from a stack
 
 To pick a card, return the card at index **position** from the given stack
+
+## Task 2
+
+### Exchange a card in the stack
+
+Perform some sleight of hand and exchange the card at index **postion** with the replacement card provided, Return the adjusted stack.
