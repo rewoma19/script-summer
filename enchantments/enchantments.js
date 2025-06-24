@@ -32,3 +32,8 @@ function removeItemAtBottom(cards) {
   cards.shift();
   return cards;
 }
+
+function checkSizeOfStack(cards, stackSize) {
+  const isEqualToStackSize = cards.length === stackSize;
+  return isEqualToStackSize;
+}
