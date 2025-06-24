@@ -22,3 +22,8 @@ function removeItemFromTop(cards) {
   cards.pop();
   return cards;
 }
+
+function insertItemAtBottom(cards, newCard) {
+  cards.unshift(newCard);
+  return cards;
+}
