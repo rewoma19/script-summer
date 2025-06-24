@@ -44,3 +44,9 @@ Make a card disapper by removing the card at the top of the stack. Return the ad
 ### Insert a card at the bottom of the stack
 
 Make a card appear by inserting a new card at the bottom of the stack. Return the adjusted stack.
+
+## Task 7
+
+### Remove a card from the bottom of the stack
+
+Make a card disappear by removing the card at the bottom of the stack. Return the adjusted stack.
