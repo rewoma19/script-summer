@@ -27,3 +27,8 @@ function insertItemAtBottom(cards, newCard) {
   cards.unshift(newCard);
   return cards;
 }
+
+function removeItemAtBottom(cards) {
+  cards.shift();
+  return cards;
+}
