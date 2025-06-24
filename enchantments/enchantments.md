@@ -50,3 +50,9 @@ Make a card appear by inserting a new card at the bottom of the stack. Return th
 ### Remove a card from the bottom of the stack
 
 Make a card disappear by removing the card at the bottom of the stack. Return the adjusted stack.
+
+## Task 8
+
+### Check the size of the stack
+
+Check whether the size of the stack is equal to **stackSize** or not.
