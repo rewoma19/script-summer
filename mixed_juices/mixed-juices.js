@@ -23,3 +23,30 @@ function timeToMixJuice(name) {
 
   return timeNeededToMix;
 }
+
+function limesToCut(wedgesNeeded, limes) {
+  let wedges = 0;
+  let numOfLimesToCut = 0;
+  let i = 0;
+
+  while (wedges < wedgesNeeded && i < limes.length) {
+    switch (limes[i]) {
+      case "small":
+        wedges += 6;
+        break;
+      case "medium":
+        wedges += 8;
+        break;
+      case "large":
+        wedges += 10;
+        break;
+      default:
+        return;
+    }
+
+    numOfLimesToCut++;
+    i++;
+  }
+
+  return limesToCut;
+}
