@@ -18,3 +18,13 @@ A lot of Li Mei's creations include lime wedges, either as an ingredient or as p
 
 Implement the function **limesToCut** which takes the number of lime wedges Li Mei needs to cut and an array representing the supply of whole limes she has at hand. She can get 6 wedges from a **'small'** lime, 8 wedges from a **'medium'** lime and 10 from a **'large'** lime. She always cuts the limes in the order in which they appear in the list, starting with the first item. She keeps going until she reached the number of wedges that she needs or until she runs out of limes.
 Li Mei would like to know in advance how many limes she needs to cut. The **limesToCut** function should return the number of limes to cut.
+
+## Task 3
+
+### Finish up the shift
+
+Li Mei always works until 3pm. Then her employee Dmitry takes over. There are often drinks that have been ordered but are not prepared uet when Li Mei's shift ends. Dmitry will then prepare the remaining juices.
+
+To make the hand-over easier, implement a function **remainingOrders** which takes the number of minutes left in Li Mei's shift and an array of juices that have been ordered but not prepared yet. The function should return the orders that Li Mei cannot start preparing before the end of her workday.
+
+The time left in the shift will always be greater than 0. The array of juices to prepare will never be empty. Furthermore, the orders are prepared in the order in which they appear in the array. If Li Mei starts to mix a certain jucie, she will always finish it even if she has to work a bit longer. If there are no remaining orders left that Dmitry needs to take care of, an empty array should be returned.
