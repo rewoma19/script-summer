@@ -18,3 +18,13 @@ function removePlayer(scoreBoard, player) {
 
   return scoreBoard;
 }
+
+function updateScore(scoreBoard, player, points) {
+  for (let key in scoreBoard) {
+    if (key === player) {
+      scoreBoard[player] += points;
+    }
+  }
+
+  return scoreBoard;
+}
