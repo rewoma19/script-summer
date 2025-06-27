@@ -32,3 +32,15 @@ If players violate the rules of the arcade hall, they are manually removed from 
 - The second parameter is the name of the player as a string.
 
 This function should remove the entry for the given player from the board and return the board afterwards. If the player was not on the board in the first place, nothing should happen to the board. It should be returned as is.
+
+## Task 4
+
+### Increase a player's score
+
+If a player finishes another game at the arcade hall, a certain amount of points will be added to the previous score on the board. Implement **updateScore**, which takes 3 parameters:
+
+- The first parameter is an existing score board object.
+- The second parameter is the name oof the player whose score should be increased.
+- The third parameter is the score that you wish to **add** to the stored high score.
+
+The function should return the score board after the update was done.
