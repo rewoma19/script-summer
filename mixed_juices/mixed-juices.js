@@ -50,3 +50,28 @@ function limesToCut(wedgesNeeded, limes) {
 
   return limesToCut;
 }
+
+function remainingOrders(timeLeft, orders) {
+  let index = 0;
+
+  do {
+    const currentJuiceOrder = orders[index]; // get current juice from orders array
+    const timeNeededToMixJuice = timeToMixJuice(currentJuiceOrder);
+
+    // if there is still time left in the shift, keep on subtracting time needed to mix certain juices from the time left in the shift
+    // If not, break / end the loop
+    if (timeLeft > 0) {
+      timeLeft -= timeNeededToMixJuice;
+      index++;
+    } else {
+      break;
+    }
+  } while (index < orders.length);
+
+  const ordersLeft = []; // empty array for remaining orders
+  for (let i = index; i < orders.length; i++) {
+    ordersLeft.push(orders[i]);
+  }
+
+  return ordersLeft;
+}
