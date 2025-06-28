@@ -36,6 +36,11 @@ function simpleTicketStatus(tickets, ticketId) {
 }
 
 function gtcVersion(visitor) {
+  // OPTIONAL CHAINING
+  // First check if the gtc property exists in the vistior object.
+  // If it does exist in the visitor object, further check if the nested version property exists, and then assign the value to the versionAvailable property.
+
+  // Otherwise, return undefined.
   let versionAvailable = visitor.gtc?.version;
   return versionAvailable;
 }
