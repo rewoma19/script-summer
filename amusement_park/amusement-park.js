@@ -29,7 +29,13 @@ function ticketStatus(tickets, ticketId) {
 }
 
 function simpleTicketStatus(tickets, ticketId) {
+  // If tickets[ticketId] evaluates to a null value, then assign the string "invalid ticket !!!" to the simpleStatus variable
   let simpleStatus = tickets[ticketId] ?? "invalid ticket !!!";
 
   return simpleStatus;
+}
+
+function gtcVersion(visitor) {
+  let versionAvailable = visitor.gtc?.version;
+  return versionAvailable;
 }
