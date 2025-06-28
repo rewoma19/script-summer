@@ -28,3 +28,11 @@ function updateScore(scoreBoard, player, points) {
 
   return scoreBoard;
 }
+
+function applyMondayBonus(scoreBoard) {
+  for (let key in scoreBoard) {
+    scoreBoard[key] += 100;
+  }
+
+  return scoreBoard;
+}
