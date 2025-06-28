@@ -17,3 +17,13 @@ Write a function **createVisitor** that accepts three arguments.
 - The identifier of the ticket that the visitor bought.
 
 The function should return an object that holds this information. The keys in the object should be called **name**, **age**, and **ticketId**.
+
+## Task 2
+
+### Revoke the ticket
+
+When people leave the amusement park, their ticket gets revoked. If they come back, they need to buy a new one. To save regular visitors some time, they only need to register once and the visitor information will be kept for subsequent visits.
+
+That means when a visitor leaves the park, only their ticket should be invalidated but the rest of the visitor object should stay the same.
+
+Implement the function **revokeTicket** that accepts a visitor object, sets the ticket identifier to **null** and returns the object afterwards.
