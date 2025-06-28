@@ -27,3 +27,19 @@ When people leave the amusement park, their ticket gets revoked. If they come ba
 That means when a visitor leaves the park, only their ticket should be invalidated but the rest of the visitor object should stay the same.
 
 Implement the function **revokeTicket** that accepts a visitor object, sets the ticket identifier to **null** and returns the object afterwards.
+
+## Task 3
+
+### Determine the ticket status
+
+To prevent forgery, the ticket identifiers are unique. Once a ticket is printed, its identifier is added as a key in an object in the system so it can be tracked.
+
+Before the ticket is sold to a visitor, it is stored with the value **null** in the ticket tracking object. When it is sold to a visitor, the visitor's name is assigned as a value. When employees have doubts about the validity of a ticket, they need to check the status of the ticket in the system.
+
+Implement a function **ticketStatus** that accepts a tracking object and a ticket identifier as arguments. It should return one of the following results.
+
+- **'unknown ticket id'** if the identifier was not found in the tracking object
+
+- **'not sold'** in case the ticket was printed but not sold
+
+- **'sold to {name}'** where **{name}** is the name of the visitor if the ticket was sold
