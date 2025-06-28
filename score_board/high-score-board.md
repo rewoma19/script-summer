@@ -44,3 +44,10 @@ If a player finishes another game at the arcade hall, a certain amount of points
 - The third parameter is the score that you wish to **add** to the stored high score.
 
 The function should return the score board after the update was done.
+
+## Task 5
+
+### Apply Monday bonus points
+
+The arcade hall keeps a separate score board on Mondays. At the end of the day, each player on that board gets 100 additional points.
+Implement the function **applyMondayBonus** that accepts a score board. The function adds bonus points for each player that is listed on that board. Afterwards, the board is returned.
