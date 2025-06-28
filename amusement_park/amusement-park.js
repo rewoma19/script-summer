@@ -27,3 +27,9 @@ function ticketStatus(tickets, ticketId) {
 
   return status;
 }
+
+function simpleTicketStatus(tickets, ticketId) {
+  let simpleStatus = tickets[ticketId] ?? "invalid ticket !!!";
+
+  return simpleStatus;
+}
