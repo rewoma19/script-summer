@@ -55,3 +55,11 @@ Write a function **simpleTicketStatus** that accepts the same arguments as **tic
 - the name of the visitor if the ticket was sold
 
 - **'invalid ticket !!!'** if the ticket was not sold yet or the identifier was not found in the tracking object
+
+## Task 5
+
+### Determine the version of terms and conditions
+
+Due to new legal requirements, newly created visitor objects now also contain detailed information on the "General Terms & Conditions" (GTC) that the user agreed to. You can see an example of the new visitor object below.
+
+The cashiers of the amusement park now need to check whether a visitor needs to sign a new version of the GTC. For this, implement a function **gtcVersion** that accepts a visitor object as an argument and returns the GTC version if it is available. If the version information is not available, nothing should be returned.
