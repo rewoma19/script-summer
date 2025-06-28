@@ -43,3 +43,15 @@ Implement a function **ticketStatus** that accepts a tracking object and a ticke
 - **'not sold'** in case the ticket was printed but not sold
 
 - **'sold to {name}'** where **{name}** is the name of the visitor if the ticket was sold
+
+## Task 4
+
+### Improve the ticket status response
+
+After a while, you get feedback from the employees that they want the ticket status to be easier to understand at the first glance. They only want to see either the name of the visitor or that the ticket is invalid.
+
+Write a function **simpleTicketStatus** that accepts the same arguments as **ticketStatus** in task 3. This function only returns one of two different results.
+
+- the name of the visitor if the ticket was sold
+
+- **'invalid ticket !!!'** if the ticket was not sold yet or the identifier was not found in the tracking object
