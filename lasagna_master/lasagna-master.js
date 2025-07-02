@@ -45,6 +45,20 @@ function quantities(layers) {
   return { noodles: gramsOfNoodles, sauce: litersOfSauce };
 }
 
+// Test cases
 console.log(
   quantities(["sauce", "noodles", "sauce", "meat", "mozzarella", "noodles"])
 );
+
+function addSecretIngredient(friendsList, myList) {
+  const secretIngredient = friendsList[friendsList.length - 1];
+  myList.push(secretIngredient);
+}
+
+// Test cases
+const friendsList = ["noodles", "sauce", "mozzarella", "kampot pepper"];
+const myList = ["noodles", "meat", "sauce", "mozzarella"];
+
+addSecretIngredient(friendsList, myList);
+
+console.log(myList);
