@@ -62,3 +62,14 @@ const myList = ["noodles", "meat", "sauce", "mozzarella"];
 addSecretIngredient(friendsList, myList);
 
 console.log(myList);
+
+function scaleRecipe(recipe, numOfPortions) {
+  const copyOfRecipe = recipe;
+  const multiple = numOfPortions / 2;
+
+  for (let ingredient in copyOfRecipe) {
+    copyOfRecipe[ingredient] *= multiple;
+  }
+
+  return copyOfRecipe;
+}
