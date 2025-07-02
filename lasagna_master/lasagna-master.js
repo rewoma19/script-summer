@@ -29,3 +29,22 @@ function preparationTime(layers, avgPrepTimePerLayer = 2) {
 const layers = ["sauce", "noodles", "sauce", "meat", "mozzarella", "noodles"];
 console.log(preparationTime(layers, 3));
 console.log(preparationTime(layers));
+
+function quantities(layers) {
+  let gramsOfNoodles = 0;
+  let litersOfSauce = 0;
+
+  for (let layer of layers) {
+    if (layer === "noodles") {
+      gramsOfNoodles += 50;
+    } else if (layer === "sauce") {
+      litersOfSauce += 0.2;
+    }
+  }
+
+  return { noodles: gramsOfNoodles, sauce: litersOfSauce };
+}
+
+console.log(
+  quantities(["sauce", "noodles", "sauce", "meat", "mozzarella", "noodles"])
+);
