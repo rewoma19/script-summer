@@ -1,7 +1,7 @@
 function cookingStatus(remainingTime) {
   let status = "";
 
-  if (remainingTime) {
+  if (remainingTime !== undefined) {
     if (remainingTime === 0) {
       status = "Lasagna is done.";
     } else {
@@ -64,7 +64,7 @@ addSecretIngredient(friendsList, myList);
 console.log(myList);
 
 function scaleRecipe(recipe, numOfPortions) {
-  const copyOfRecipe = recipe;
+  const copyOfRecipe = { ...recipe };
   const multiple = numOfPortions / 2;
 
   for (let ingredient in copyOfRecipe) {
