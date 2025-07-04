@@ -12,3 +12,10 @@ function buildBirthdaySign(age) {
 
   return birthdaySign;
 }
+
+function graduationFor(name, year) {
+  const gradSign = `Congratulations ${name}!
+Class of ${year}`;
+
+  return gradSign;
+}
