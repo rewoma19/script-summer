@@ -16,3 +16,9 @@ Implement the function **buildBirthdaySign(age)** that accepts an age and based 
 > // => "Happy Birthday! What a mature fellow you are."
 > buildBirthdaySign(45);
 > // => "Happy Birthday! What a young fellow you are."
+
+## Task 3
+
+### Build a graduation sign
+
+Implement the function **graduationFor(name, year)** which takes a name as a string parameter and a year as a naumber parameter and uses string interpolation to create a phrase for a sign that uses a newline to separate the two lines of the message.
