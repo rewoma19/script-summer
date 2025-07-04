@@ -5,3 +5,10 @@ function buildSign(occasion, name) {
 
 // Test case
 console.log(buildSign("Birthday", "Rob"));
+
+function buildBirthdaySign(age) {
+  const ageGrade = age >= 50 ? "mature" : "young";
+  const birthdaySign = `Happy Birthday! What a ${ageGrade} fellow you are.`;
+
+  return birthdaySign;
+}
