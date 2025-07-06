@@ -17,3 +17,13 @@ Enterprise (registry number NCC-1701) is not the only starship flying around! Wh
 Registry numbers start with the prefix "NCC-" and then use a number from 1000 to 9999 (both inclusive).
 
 Implement the **randomShipRegistryNumber()** function that returns a random starship registry number.
+
+## Task 3
+
+### Generate a random stardate
+
+What's the use of a log if it doesn't include dates?
+
+A stardate is a floating point number. The adventures of the Starship Enterprise from the first season of The Next Generation take place between the stardates 41000.0 and 42000.0. The "4" stands for the 24th century, the "1" for the first season.
+
+Implement the function **randomStardate** that returns a floating point number between 41000.0 (inclusive) and 42000.0 (exclusive).
