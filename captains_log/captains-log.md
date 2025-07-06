@@ -27,3 +27,11 @@ What's the use of a log if it doesn't include dates?
 A stardate is a floating point number. The adventures of the Starship Enterprise from the first season of The Next Generation take place between the stardates 41000.0 and 42000.0. The "4" stands for the 24th century, the "1" for the first season.
 
 Implement the function **randomStardate** that returns a floating point number between 41000.0 (inclusive) and 42000.0 (exclusive).
+
+## Task 4
+
+### Generate a random planet
+
+The Starship Enterprise encounters many planets in its travels. Planets in the Star Trek universe are split into categories based on their properties. For example, Earth is a class M planet. All possible planetary classes are: D, H, J, K, L, M, N, R, T, and Y.
+
+Implement the **randomPlanetClass()** function. It should return one of the planetary classes at random.
