@@ -15,3 +15,9 @@ Elyse will summon the first card in the deck without using the **array[index]**,
 ### Get the second card
 
 Elyse performs sleight of hand and summons the second card in the deck without using the **array[index]** or **.shif()**.
+
+## Task 3
+
+### Swap two cards
+
+Elyse will make the two cards of the deck switch places. She doesn't need to call a single function.
