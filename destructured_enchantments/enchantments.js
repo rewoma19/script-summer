@@ -53,3 +53,10 @@ const chosen = [5, 4];
 const disregarded = [7, 10];
 
 console.log(pickNamedPile({ chosen, disregarded }));
+
+// Swap the chosen pile for the disregarded pile and the disregarded pile for the chosen pile
+function swapNamedPile(piles) {
+  let { chosen, disregarded } = piles;
+  [chosen, disregarded] = [disregarded, chosen];
+  return { chosen, disregarded };
+}
