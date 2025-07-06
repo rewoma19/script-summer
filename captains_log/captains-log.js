@@ -1,3 +1,5 @@
+// Generate a random starship registry number.
+
 function randomShipRegistryNumber() {
   // Generating a random number within a certain range
   // min + Math.random() * (max - min);
@@ -8,3 +10,10 @@ function randomShipRegistryNumber() {
 
 // Test case
 randomShipRegistryNumber();
+
+// Generate a random stardate.
+
+function randomStardate() {
+  const randomStar = 41000.0 + Math.random() * (42000.0 - 41000.0);
+  return randomStar;
+}
