@@ -9,3 +9,9 @@ To male things easier, she usually only starts with cards numbered 2 to 10, alth
 ### Get the first card
 
 Elyse will summon the first card in the deck without using the **array[index]**, **.at(index)**, or **.shift()**. It's just like magic.
+
+## Task 2
+
+### Get the second card
+
+Elyse performs sleight of hand and summons the second card in the deck without using the **array[index]** or **.shif()**.
