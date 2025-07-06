@@ -21,3 +21,9 @@ Elyse performs sleight of hand and summons the second card in the deck without u
 ### Swap two cards
 
 Elyse will make the two cards of the deck switch places. She doesn't need to call a single function.
+
+## Task 4
+
+### Shift three cards around
+
+In order to perform some more sleight of hand, Elyse takes three cards and quickly moves the top card to the back, making the middle card the first card and the old bottom card the middle card. She doesn't need to call a single function.
