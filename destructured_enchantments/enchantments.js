@@ -36,5 +36,20 @@ function shiftThreeCardsAround(deck) {
   return deck;
 }
 
+// Test cases
 const deck4 = [2, 6, 10];
 console.log(shiftThreeCardsAround(deck4));
+
+// Grab the chosen pile from the available piles
+function pickNamedPile(piles) {
+  // making use of object destructuring
+  const { chosen, disregarded } = piles;
+  return chosen;
+}
+
+// Test cases
+const deck5 = [5, 4, 7, 10];
+const chosen = [5, 4];
+const disregarded = [7, 10];
+
+console.log(pickNamedPile({ chosen, disregarded }));
