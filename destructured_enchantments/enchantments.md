@@ -33,3 +33,9 @@ In order to perform some more sleight of hand, Elyse takes three cards and quick
 ### Pick the named pile
 
 Elyse will separate the deck into two piles. She then asks the observer to pick one of the two piles, which we'll name **chosen**. The **disregarded** pile is no longer relevant, which she makes disappear. She doesn't need to call a single function.
+
+## Task 6
+
+### Swap the picked pile
+
+Unfortunately, the observer keeps picking the "wrong" pile, but with some clever fast magic, Elyse renames the **chosen** pile to be **disregarded** and the **disregarded** pile to be the **chosen** pile. She doesn't need to call a single function.
