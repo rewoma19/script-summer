@@ -17,3 +17,14 @@ function getSecondCard(deck) {
 // Test cases
 const deck2 = [3, 2, 19, 6, 7];
 console.log(getSecondCard(deck2));
+
+// Switch the position of the two cards.
+function swapTwoCards(deck) {
+  let [firstCard, secondCard] = deck;
+  deck = [secondCard, firstCard];
+  return deck;
+}
+
+// Test cases
+const deck3 = [10, 7];
+console.log(swapTwoCards(deck3));
