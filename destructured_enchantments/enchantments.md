@@ -27,3 +27,9 @@ Elyse will make the two cards of the deck switch places. She doesn't need to cal
 ### Shift three cards around
 
 In order to perform some more sleight of hand, Elyse takes three cards and quickly moves the top card to the back, making the middle card the first card and the old bottom card the middle card. She doesn't need to call a single function.
+
+## Task 5
+
+### Pick the named pile
+
+Elyse will separate the deck into two piles. She then asks the observer to pick one of the two piles, which we'll name **chosen**. The **disregarded** pile is no longer relevant, which she makes disappear. She doesn't need to call a single function.
