@@ -28,3 +28,13 @@ function swapTwoCards(deck) {
 // Test cases
 const deck3 = [10, 7];
 console.log(swapTwoCards(deck3));
+
+// Rotate (shift) the position of the three cards (by one place)
+function shiftThreeCardsAround(deck) {
+  let [cardOne, cardTwo, cardThree] = deck;
+  deck = [cardTwo, cardThree, cardOne];
+  return deck;
+}
+
+const deck4 = [2, 6, 10];
+console.log(shiftThreeCardsAround(deck4));
