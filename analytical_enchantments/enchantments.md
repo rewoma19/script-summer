@@ -41,3 +41,12 @@ Elyse wants to know if there is an odd number in the stack.
 
     doesStackIncludeOddCard([3, 2, 6, 4, 8]);
     // => true
+
+## Task 5
+
+### Get the first odd card from the stack
+
+Elyse wants to know the value of the first card that is odd.
+
+    getFirstOddCard([4, 2, 8, 7, 9]);
+    // => 7
