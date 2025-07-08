@@ -50,3 +50,12 @@ Elyse wants to know the value of the first card that is odd.
 
     getFirstOddCard([4, 2, 8, 7, 9]);
     // => 7
+
+## Task 6
+
+### Determine the position of the first card that is even
+
+Elyse wants to know the position of the first card that is even.
+
+    getFirstEvenCardPosition([5, 2, 3, 1]);
+    // => 1
