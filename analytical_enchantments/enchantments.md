@@ -13,3 +13,9 @@ Elyse wants to know the position (index) of a card in the stack.
     const card = 2;
     getCardPosition([9, 7, 3, 2], card);
     // => 3
+
+## Task 2
+
+### Determine if a card is present
+
+Elyse wants to determine if a card is present in the stack -- in other words, if the stack contains a specific **number**.
