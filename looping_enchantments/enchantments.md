@@ -15,3 +15,21 @@ Write a function **cardTypeCheck** that takes two parameters: an array of cards 
     const cardType = 3;
     cardTypeCheck([1, 2, 3, 4], cardType);
     // => 1
+
+## Task 2
+
+### Determine how many odd or even cards there are
+
+For another trick, Elyse needs to know how many odd or even cards there are in her deck.
+
+Implement a function **determineOddEvenCards** that takes in two parameters: an array of cards (Elyse's deck), and a boolean (true is analogous to 'even', and false is analogoug to 'odd').
+
+This function should return a single number: the number of odd or even cards there are (depending on the value of the second argument) in the deck.
+
+    **Note**: To practice, use a **for...of** loop in the function implementation this time.
+
+    determineOddEvenCards([1, 2, 3, 1, 5, 6], true);
+    // => 2
+
+    determineOddEvenCards([1, 2, 3, 1, 5, 6], false);
+    // => 4
