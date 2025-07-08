@@ -25,3 +25,10 @@ function doesStackIncludeOddCard(stack) {
   const isOddCardInStack = stack.some((card) => card % 2 !== 0);
   return isOddCardInStack;
 }
+
+// Get the first odd card from the stack
+function getFirstOddCard(stack) {
+  // Using the .find() array method, we look for the first instance of an item or element in the stack of cards that is not divisible by 2.
+  const firstOddCard = stack.find((card) => card % 2 !== 0);
+  return firstOddCard;
+}
