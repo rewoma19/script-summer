@@ -18,3 +18,10 @@ function isEachCardEven(stack) {
   const areAllCardsEven = stack.every((card) => card % 2 === 0);
   return areAllCardsEven;
 }
+
+// Check if stack contains odd-value card
+function doesStackIncludeOddCard(stack) {
+  // Using the .some() array method, we check if ANY of the cards in the stack is not perfectly divisible by 2
+  const isOddCardInStack = stack.some((card) => card % 2 !== 0);
+  return isOddCardInStack;
+}
