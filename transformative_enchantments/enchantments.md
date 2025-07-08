@@ -11,3 +11,13 @@ Elyse wants to double the number of every card in the deck. This may result in h
     const deck = [1, 2, 3, 4, 10];
     seeingDouble(deck);
     // => [2, 4, 6, 8, 20]
+
+## Task 2
+
+### Create multiple copies of every 3 found in the deck
+
+Elyse wants to triplicate every 3 found in the deck. If a deck started with a single 3, after the trick, the deck would have three 3's in place of the original.
+
+    const deck = [1, 3, 9, 3, 7];
+    threeOfEachThree(deck);
+    // => [1, 3, 3, 3, 9. 3, 3, 3, 7]
