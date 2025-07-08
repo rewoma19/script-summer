@@ -10,3 +10,11 @@ function doesStackIncludeCard(stack, card) {
   const isCardInStack = stack.includes(card);
   return isCardInStack;
 }
+
+// Determine if each card is even
+function isEachCardEven(stack) {
+  // For a card to be even, it should have a remainder of 0 after being divided by 2
+  // We check if this is so, by using the modulus operator: %
+  const areAllCardsEven = stack.every((card) => card % 2 === 0);
+  return areAllCardsEven;
+}
