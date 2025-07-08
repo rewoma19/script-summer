@@ -19,3 +19,7 @@ Elyse wants to know the position (index) of a card in the stack.
 ### Determine if a card is present
 
 Elyse wants to determine if a card is present in the stack -- in other words, if the stack contains a specific **number**.
+
+    const card = 3;
+    doesStackIncludeCard([2, 3, 4, 5], card);
+    // => true
