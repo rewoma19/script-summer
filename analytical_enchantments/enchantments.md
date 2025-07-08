@@ -32,3 +32,12 @@ Elyse wants to know if every card is even -- in other words, if each number in t
 
     isEachCardEven([2, 4, 6, 7]);
     // => false
+
+## Task 4
+
+### Check if the stack contains an odd-value card
+
+Elyse wants to know if there is an odd number in the stack.
+
+    doesStackIncludeOddCard([3, 2, 6, 4, 8]);
+    // => true
