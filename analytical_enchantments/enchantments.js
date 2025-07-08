@@ -32,3 +32,9 @@ function getFirstOddCard(stack) {
   const firstOddCard = stack.find((card) => card % 2 !== 0);
   return firstOddCard;
 }
+
+function getFirstEvenCardPosition(stack) {
+  // Using the .findIndex() array method, we return the index of the very first card in the stack that is perfectly divisible by 2.
+  const firstEvenCardIndex = stack.findIndex((card) => card % 2 === 0);
+  return firstEvenCardIndex;
+}
