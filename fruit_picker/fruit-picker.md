@@ -28,3 +28,9 @@ The query takes the form of an object.
         variety: string,
         quantity: number,
     };
+
+## Task 4
+
+### Simplify handling placed orders
+
+Your customers are now able to place fruit orders via your portal, however, you notice that you are invoking the **orderFromGrocer** function in many different places across your codebase, each time having to pass in a **query** and the two **callback** functions as arguments. Seeing an opportunity to refactor your code, you think it would be simpler if you could place an order by just passing the **variety** aand **quantity** of fruit required. Define the **postOrder** helper function that takes **variety** and **quantity** as arguments and attempts to place an order with the grocer.
