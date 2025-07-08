@@ -18,3 +18,9 @@ function orderFromGrocer(query, onSuccessCallback, onErrorCallback) {
   // implement the orderFromGrocer function to order the query
   order(query, onSuccessCallback, onErrorCallback);
 }
+
+function postOrder(variety, quantity) {
+  // implement the postOrder function to create a query and order
+  const query = { variety, quantity };
+  order(query, onSuccess, onError);
+}
