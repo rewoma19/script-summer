@@ -41,3 +41,20 @@ Given this new information, write a function called **\*correctListOfWagons** th
     missingWagons = [3, 17, 6, 15];
     correctListOfWagons(eachWagonsID, missingWagons);
     // => [1, 3, 17, 6, 15, 5, 20, 7, 4, 8]
+
+## Task 4
+
+### Extend routing information
+
+Now that all the wagon data is correct, your friend would like you to update the systems routing information. Initial routing information has been constructed as an **object**, and your friend would like you to update it with the additions provided. Every route requires slightly different information, so you friend would really prefer a generic solution.
+
+Implement a function **extendRouteInformation** that accepts two **objects**. The first **object** contains which cities the train route moves between.
+
+The second **object** contains other routing details such as train speed or length. The function should return a consolidated **object** with all routing information.
+
+**NOTE**: The variable **moreRouteInformation** can contain different properties.
+
+    route = { from: 'Berlin', to: 'Hamburg' };
+    moreRouteInformation = { length: '100', speed: '50' };
+    extendRouteInformation(route, moreRouteInformation);
+    // => {from: "Berlin", to: "Hamburg", length: "100", speed: "50"}
