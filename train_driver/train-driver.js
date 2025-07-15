@@ -29,3 +29,23 @@ function correctListOfWagons(ids, missingWagons) {
 const eachWagonsID2 = [1, 5, 20, 7, 4, 8];
 const missingWagons = [3, 17, 6, 15];
 console.log(correctListOfWagons(eachWagonsID2, missingWagons));
+
+// Extend route information by adding another object
+
+function extendRouteInformation(information, additional) {
+  const extendedRoute = { ...information, ...additional };
+  return extendedRoute;
+}
+
+// Test case
+const route = {
+  from: "Berlin",
+  to: "Hamburg",
+};
+
+const moreRouteInformation = {
+  length: "100",
+  speed: "50",
+};
+
+console.log(extendRouteInformation(route, moreRouteInformation));
