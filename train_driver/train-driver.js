@@ -49,3 +49,19 @@ const moreRouteInformation = {
 };
 
 console.log(extendRouteInformation(route, moreRouteInformation));
+
+function separateTimeOfArrival(information) {
+  const { timeOfArrival, ...otherInfo } = information;
+  const separatedRouteInfo = [timeOfArrival, { ...otherInfo }];
+  return separatedRouteInfo;
+}
+
+// Test case
+const routeInformation = {
+  from: "Berlin",
+  to: "Hamburg",
+  length: "100",
+  timeOfArrival: "10:10",
+};
+
+console.log(separateTimeOfArrival(routeInformation));
