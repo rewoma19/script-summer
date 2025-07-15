@@ -25,3 +25,16 @@ function threeOfEachThree(deck) {
 // Test case
 const deck = [1, 3, 9, 3, 7];
 console.log(threeOfEachThree(deck));
+
+// Extract the middle two cards from a deck.
+// Assumes a deck is always 10 cards.
+
+function middleTwo(deck) {
+  // Assuming it is a deck of 10 cards, the two middle cards will be of indices 4 and 5
+  const middleCards = deck.slice(4, 6); // note that card of index 6 is excluded
+  return middleCards;
+}
+
+// Test case
+const deck2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(middleTwo(deck2));
