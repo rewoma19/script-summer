@@ -16,3 +16,16 @@ function fixListOfWagons(ids) {
 // Test Case
 const eachWagonsID = [2, 5, 1, 7, 4, 12, 6, 3, 13];
 console.log(fixListOfWagons(eachWagonsID));
+
+// Fix the array of wagons by inserting an array of wagons after the first element in eachWagonsID.
+
+function correctListOfWagons(ids, missingWagons) {
+  const [locomotive, ...otherWagons] = ids;
+  const correctWagonsList = [locomotive, ...missingWagons, ...otherWagons];
+  return correctWagonsList;
+}
+
+// Test case
+const eachWagonsID2 = [1, 5, 20, 7, 4, 8];
+const missingWagons = [3, 17, 6, 15];
+console.log(correctListOfWagons(eachWagonsID2, missingWagons));
