@@ -26,3 +26,18 @@ Your friend had to connect two new wagons to the train and forgot to update the 
 Linus would be really grateful to you for fixing their mistakes.
 
 Implement a function **fixListOfWagons** that accepts an array of the id of each wagon. It **return**s an **array** where the 2 first elements are repositioned to the end of the **array** so that the locomotive can be in the front.
+
+## Task 3
+
+### Add missing values
+
+Uh-oh. some wagons seem to have gone missing.
+
+Fortunately, your friend just found another **array** which appears to contain the missing wagon IDs, and would like you to add them into the main wagon ID **array**. All they can remember is that the missing values should be placed directly after the designated locomotive.
+
+Given this new information, write a function called **\*correctListOfWagons** that takes two arrays which have the IDs of each wagon as the arguments. The wagon IDs of the second **array** should be added into the first **array** directly after the locomotive (ID 1).
+
+    eachWagonsID = [1, 5, 20, 7, 4, 8];
+    missingWagons = [3, 17, 6, 15];
+    correctListOfWagons(eachWagonsID, missingWagons);
+    // => [1, 3, 17, 6, 15, 5, 20, 7, 4, 8]
