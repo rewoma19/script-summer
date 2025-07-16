@@ -38,3 +38,18 @@ function middleTwo(deck) {
 // Test case
 const deck2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(middleTwo(deck2));
+
+// Moves the outside two cards to the middle.
+
+function sandwichTrick(deck) {
+  const firstCard = deck.shift();
+  const lastCard = deck.pop();
+  // We assume that the deck will have an even number of cards
+  const middleIndex = deck.length / 2;
+  deck.splice(middleIndex, 0, lastCard, firstCard);
+  return deck;
+}
+
+// Test case
+const deck3 = [1, 2, 3, 5, 6, 10];
+console.log(sandwichTrick(deck3));
