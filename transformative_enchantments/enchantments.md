@@ -31,3 +31,15 @@ Elyse will take a deck of ten cards, and make every card disappear except the mi
     const deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     middleTwo(deck);
     // => [5, 6]
+
+## Task 4
+
+### The outside two cards will reappear in the middle of the deck
+
+Elyse wants to move the top and bottom cards of the deck into the middle, in reverse order.
+
+You can assume that the deck has an even number of cards.
+
+    const deck = [1, 2, 3, 5, 6, 10];
+    sandwichTrick(deck);
+    // => [2, 3, 10, 1, 5, 6]
