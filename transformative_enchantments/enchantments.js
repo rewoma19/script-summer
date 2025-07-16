@@ -63,3 +63,16 @@ function twoIsSpecial(deck) {
 // Test case
 const deck4 = [1, 2, 3, 4, 10, 2];
 console.log(twoIsSpecial(deck4));
+
+// Return a perfectly ordered deck from lowest to highest.
+function perfectlyOrdered(deck) {
+  // (a, b) => a - b sorts numbers in ascending order
+  // Without using a compare callback function in our sort array method, it will sort the items in it LEXICOGRAPHICALLY / ALPHABETICALLY.
+  // This means that it would first convert the items to strings before sorting them, and this might not always be the best approach, when dealing with numbers
+  const orderedDeck = deck.sort((a, b) => a - b);
+  return orderedDeck;
+}
+
+// Test case
+const deck5 = [10, 1, 5, 3, 2, 8, 7];
+console.log(perfectlyOrdered(deck5));
