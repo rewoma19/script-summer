@@ -43,3 +43,13 @@ You can assume that the deck has an even number of cards.
     const deck = [1, 2, 3, 5, 6, 10];
     sandwichTrick(deck);
     // => [2, 3, 10, 1, 5, 6]
+
+## Task 5
+
+### Every card that isn't 2 disappears
+
+Elyse's favorite number today is 2. In this trick, every card that isn't a 2 will disapper from the deck.
+
+    const deck = [1, 2, 3, 4, 10, 2];
+    twoIsSpecial(deck);
+    // => [2, 2]
