@@ -63,3 +63,13 @@ Elyse wishes to demonstrate her mastery of reordering the cards perfectly - no m
     const deck = [10, 1, 5, 3, 2, 8, 7];
     perfectlyOrdered(deck);
     // => [1, 2, 3, 5, 7, 8, 10]
+
+## Task 7
+
+### Reorder the deck
+
+Elyse wants to change the order of the cards in the deck. After the trick, the card that is currently at the top should end up at the bottom of the deck. The second card should end up second last etc.
+
+    const deck = [10, 1, 5, 3, 2];
+    reorder(deck);
+    // => [2, 3, 5, 1, 10]
