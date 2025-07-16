@@ -76,3 +76,14 @@ function perfectlyOrdered(deck) {
 // Test case
 const deck5 = [10, 1, 5, 3, 2, 8, 7];
 console.log(perfectlyOrdered(deck5));
+
+// Reorders the deck so that the top card ends up at the bottom.
+
+function reorder(deck) {
+  const reorderedDeck = deck.reverse();
+  return reorderedDeck;
+}
+
+// Test case
+const lastDeckOfTheDay = [10, 1, 5, 3, 2];
+console.log(reorder(lastDeckOfTheDay));
