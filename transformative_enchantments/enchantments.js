@@ -53,3 +53,13 @@ function sandwichTrick(deck) {
 // Test case
 const deck3 = [1, 2, 3, 5, 6, 10];
 console.log(sandwichTrick(deck3));
+
+// Removes every card from the deck except 2s.
+function twoIsSpecial(deck) {
+  const deckOfTwos = deck.filter((card) => card === 2);
+  return deckOfTwos;
+}
+
+// Test case
+const deck4 = [1, 2, 3, 4, 10, 2];
+console.log(twoIsSpecial(deck4));
