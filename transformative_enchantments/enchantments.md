@@ -53,3 +53,13 @@ Elyse's favorite number today is 2. In this trick, every card that isn't a 2 wil
     const deck = [1, 2, 3, 4, 10, 2];
     twoIsSpecial(deck);
     // => [2, 2]
+
+## Task 6
+
+### Convert a shuffled deck into a perfectly ordered deck
+
+Elyse wishes to demonstrate her mastery of reordering the cards perfectly - no matter how well shuffled.
+
+    const deck = [10, 1, 5, 3, 2, 8, 7];
+    perfectlyOrdered(deck);
+    // => [1, 2, 3, 5, 7, 8, 10]
